@@ -1,3 +1,21 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomAppointmentForm.cs](./CS/WebSite/App_Code/CustomAppointmentForm.cs) (VB: [CustomAppointmentForm.vb](./VB/WebSite/App_Code/CustomAppointmentForm.vb))
+* [CustomEvents.cs](./CS/WebSite/App_Code/CustomEvents.cs) (VB: [CustomEvents.vb](./VB/WebSite/App_Code/CustomEvents.vb))
+* [CustomResources.cs](./CS/WebSite/App_Code/CustomResources.cs) (VB: [CustomResources.vb](./VB/WebSite/App_Code/CustomResources.vb))
+* [DataHelper.cs](./CS/WebSite/App_Code/DataHelper.cs) (VB: [DataHelper.vb](./VB/WebSite/App_Code/DataHelper.vb))
+* [DemoUtils.cs](./CS/WebSite/App_Code/DemoUtils.cs) (VB: [DemoUtils.vb](./VB/WebSite/App_Code/DemoUtils.vb))
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [AppointmentDragToolTip.ascx](./CS/WebSite/DevExpress/ASPxSchedulerForms/AppointmentDragToolTip.ascx) (VB: [AppointmentDragToolTip.ascx.vb](./VB/WebSite/DevExpress/ASPxSchedulerForms/AppointmentDragToolTip.ascx.vb))
+* [AppointmentDragToolTip.ascx.cs](./CS/WebSite/DevExpress/ASPxSchedulerForms/AppointmentDragToolTip.ascx.cs) (VB: [AppointmentDragToolTip.ascx.vb](./VB/WebSite/DevExpress/ASPxSchedulerForms/AppointmentDragToolTip.ascx.vb))
+* [AppointmentForm.ascx](./CS/WebSite/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx) (VB: [AppointmentForm.ascx](./VB/WebSite/DevExpress/ASPxSchedulerForms/AppointmentForm.ascx))
+* [ScriptAppointmentForm.ascx](./CS/WebSite/UserForms/ScriptAppointmentForm.ascx) (VB: [ScriptAppointmentForm.ascx.vb](./VB/WebSite/UserForms/ScriptAppointmentForm.ascx.vb))
+* [ScriptAppointmentForm.ascx.cs](./CS/WebSite/UserForms/ScriptAppointmentForm.ascx.cs) (VB: [ScriptAppointmentForm.ascx.vb](./VB/WebSite/UserForms/ScriptAppointmentForm.ascx.vb))
+* [ScriptRecurrenceForm.ascx](./CS/WebSite/UserForms/ScriptRecurrenceForm.ascx) (VB: [ScriptRecurrenceForm.ascx](./VB/WebSite/UserForms/ScriptRecurrenceForm.ascx))
+* [ScriptRecurrenceForm.ascx.cs](./CS/WebSite/UserForms/ScriptRecurrenceForm.ascx.cs) (VB: [ScriptRecurrenceForm.ascx](./VB/WebSite/UserForms/ScriptRecurrenceForm.ascx))
+<!-- default file list end -->
 # Client-side appointment form for shared resources
 
 
