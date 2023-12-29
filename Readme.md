@@ -1,7 +1,3 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1717)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -13,9 +9,6 @@
 * [ScriptRecurrenceForm.ascx.cs](./CS/WebSite/UserForms/ScriptRecurrenceForm.ascx.cs) (VB: [ScriptRecurrenceForm.ascx.vb](./VB/WebSite/UserForms/ScriptRecurrenceForm.ascx.vb))
 <!-- default file list end -->
 # Client-side appointment form for shared resources
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1717/)**
-<!-- run online end -->
 
 
 <p>This example illustrates how to create an appointment editing form for resource sharing mode using client-side scripting.</p><p>In this example, popup menu commands are intercepted by JavaScript functions, which create the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerScriptsASPxClientAppointmentMembersTopicAll">ASPxClientAppointment</a> for the selected interval and resource or use the client Scheduler’s <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerScriptsASPxClientScheduler_GetSelectedAppointmentIdstopic">GetSelectedAppointmentIds</a> and <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerScriptsASPxClientScheduler_GetAppointmentByIdtopic">GetAppointmentById</a> methods to obtain the client appointment. After that, the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxSchedulerScriptsASPxClientScheduler_RefreshClientAppointmentPropertiestopic">RefreshClientAppointmentProperties</a> method updates the client appointment properties and invokes the scripting appointment form.</p><p>The scripting appointment editing form consists of two templates – <strong>ScriptAppointmentForm.ascx</strong> and <strong>ScriptRecurrenceForm.ascx</strong>. Their code implements the logic required to populate the form’s controls and update the appointment with new values. The <strong>ASPxDropDownEdit</strong> control with incorporated <strong>ASPxListBox</strong> control is used to display a  list of resources.  It enables the user to select multiple resource in a drop-down list with checkboxes. <br />
